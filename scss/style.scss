@@ -1,0 +1,154 @@
+@import "./normalize.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+$black: #070707;
+$dark-gray: #828282;
+$gray: #f6f6f6;
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+    padding: 0 250px;
+    height: 634px;
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 32px;
+        &__link-active {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: $black;
+        }
+
+        &__link {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: $dark-gray;
+        }
+        &__link:hover {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+
+            color: $black;
+        }
+    }
+
+    &-line {
+        border: 1px solid $dark-gray;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin-top: 32px;
+    }
+
+    &-content {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__name {
+            height: 123px;
+            width: 123px;
+            font-size: 47.3392px;
+            line-height: 59px;
+            color: $black;
+        }
+        &__about {
+            margin-top: 30px;
+            width: 155px;
+            height: 45px;
+            font-size: 18px;
+            line-height: 22px;
+            color: $black;
+        }
+        &__button {
+            width: 65px;
+            height: 0px;
+            font-size: 16px;
+            line-height: 20px;
+
+            color: $dark-gray;
+
+            transform: rotate(-90deg);
+
+            text-decoration: none;
+            span {
+                color: $black;
+            }
+        }
+    }
+
+    &-img {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+    }
+}
+
+.about {
+    background-color: $gray;
+    padding: 0 250px;
+    height: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__h1,
+    &__p1,
+    &__p2,
+    &__p3 {
+        text-align: center;
+        width: 485px;
+    }
+    &__p2{
+        width: 400px;
+    }
+    &__p3{
+        width: 300px;
+    }
+}
+
+.skills {
+    &__h1 {
+    }
+    &__p {
+    }
+    &-imgs {
+        &__img {
+        }
+    }
+}
+
+.portfolio {
+    &__h1 {
+    }
+    &-block {
+        &-link {
+            &__img {
+            }
+        }
+
+        &__a {
+        }
+    }
+}
+
+.contacts {
+    &__h1 {
+    }
+    &__p {
+    }
+    &__a {
+    }
+    &__img {
+    }
+    &__end {
+    }
+}
