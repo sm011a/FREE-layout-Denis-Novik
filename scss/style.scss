@@ -86,9 +86,9 @@ body {
     }
 
     &-img {
+        height: 387px;
         width: 100%;
-        margin-top: 30px;
-        display: flex;
+        background: url(/img/BSPP2266.png) no-repeat 50%;
     }
 }
 
@@ -107,48 +107,298 @@ body {
         text-align: center;
         width: 485px;
     }
-    &__p2{
+    &__p2 {
         width: 400px;
     }
-    &__p3{
+    &__p3 {
         width: 300px;
     }
 }
 
 .skills {
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &__h1 {
+        margin-top: 90px;
     }
     &__p {
+        margin-top: 70px;
     }
     &-imgs {
+        margin-top: 85px;
+
         &__img {
+            margin: 0 45px;
         }
     }
 }
 
 .portfolio {
+    margin-top: 110px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $gray;
     &__h1 {
     }
     &-block {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         &-link {
+            width: 100%;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
             &__img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
             }
+        }
+        &-link:hover {
+            transition: 0.3s;
+            box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -o-transition: 0.3s;
+        }
+
+        &-link1 {
+            width: 100%;
+            margin-top: 100px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            &__img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
+        &-link1:hover {
+            transition: 0.3s;
+            box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -o-transition: 0.3s;
+        }
+
+        &-link2 {
+            width: 100%;
+            margin-top: 100px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            &__img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+        }
+        &-link2:hover {
+            transition: 0.3s;
+            box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -o-transition: 0.3s;
         }
 
         &__a {
+            margin-top: 45px;
+            color: $black;
         }
     }
 }
 
 .contacts {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__h1 {
     }
     &__p {
+        width: 250px;
+        height: 45px;
+        text-align: center;
     }
     &__a {
+        margin-top: 15px;
+        padding: 15px 30px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        background: $black;
+        text-decoration: none;
+        color: #fff;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+    &__a:hover {
+        transition: 0.4s;
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+        box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
     }
     &__img {
+        margin-top: 85px;
+        width: 20%;
     }
     &__end {
+        margin-top: 45px;
+        width: 240px;
+        text-align: center;
+        color: $dark-gray;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .header {
+        padding: 0 100px;
+    }
+
+    .about {
+        padding: 0 100px;
+    }
+
+    .skills {
+        padding: 0 100px;
+    }
+
+    .portfolio {
+        margin-top: 110px;
+        padding: 100px;
+    }
+
+    .contacts {
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .header {
+        padding: 0 10px;
+        height: 600px;
+
+        &-nav {
+            display: none;
+        }
+
+        &-line {
+            display: none;
+        }
+
+        &-content {
+            margin: 0;
+            flex-direction: column;
+            align-items: flex-start;
+            &__name{
+            }
+            &__about {
+                margin: 0;
+            }
+            &__button {
+                display: none;
+            }
+        }
+    }
+
+    .about {
+        padding: 0 10px;
+        height: 400px;
+        &__h1,
+        &__p1,
+        &__p2,
+        &__p3 {
+            text-align: center;
+            width: 300px;
+        }
+        &__p2 {
+            width: 250px;
+        }
+        &__p3 {
+            width: 200px;
+        }
+    }
+
+    .skills {
+        padding: 0 10px;
+        &__h1{
+            margin-top: 50px;
+        }
+        &__p{
+            margin-top: 20px;
+        }
+        &-imgs{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            &__img{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .portfolio {
+        margin-top: 50px;
+        padding: 10px;
+        &-block{
+            &-link1{
+                margin-top: 50px;
+            }
+            &-link2{
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .contacts {
+        padding: 10px 0;
+        &__img{
+            margin-top: 50px;
+            width: 50%;
+        }
     }
 }

@@ -362,9 +362,9 @@ body {
       .header-content__button span {
         color: #070707; }
   .header-img {
+    height: 387px;
     width: 100%;
-    margin-top: 30px;
-    display: flex; }
+    background: url(/img/BSPP2266.png) no-repeat 50%; }
 
 .about {
   background-color: #f6f6f6;
@@ -381,3 +381,215 @@ body {
     width: 400px; }
   .about__p3 {
     width: 300px; }
+
+.skills {
+  padding: 0 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .skills__h1 {
+    margin-top: 90px; }
+  .skills__p {
+    margin-top: 70px; }
+  .skills-imgs {
+    margin-top: 85px; }
+    .skills-imgs__img {
+      margin: 0 45px; }
+
+.portfolio {
+  margin-top: 110px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f6f6; }
+  .portfolio-block {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .portfolio-block-link {
+      width: 100%;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px; }
+      .portfolio-block-link__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px; }
+    .portfolio-block-link:hover {
+      transition: 0.3s;
+      box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s; }
+    .portfolio-block-link1 {
+      width: 100%;
+      margin-top: 100px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px; }
+      .portfolio-block-link1__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px; }
+    .portfolio-block-link1:hover {
+      transition: 0.3s;
+      box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s; }
+    .portfolio-block-link2 {
+      width: 100%;
+      margin-top: 100px;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px; }
+      .portfolio-block-link2__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px; }
+    .portfolio-block-link2:hover {
+      transition: 0.3s;
+      box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22);
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s; }
+    .portfolio-block__a {
+      margin-top: 45px;
+      color: #070707; }
+
+.contacts {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contacts__p {
+    width: 250px;
+    height: 45px;
+    text-align: center; }
+  .contacts__a {
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background: #070707;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); }
+  .contacts__a:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.22); }
+  .contacts__img {
+    margin-top: 85px;
+    width: 20%; }
+  .contacts__end {
+    margin-top: 45px;
+    width: 240px;
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    flex-direction: column; }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .header {
+    padding: 0 100px; }
+  .about {
+    padding: 0 100px; }
+  .skills {
+    padding: 0 100px; }
+  .portfolio {
+    margin-top: 110px;
+    padding: 100px; }
+  .contacts {
+    padding: 50px 0; } }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+    height: 600px; }
+    .header-nav {
+      display: none; }
+    .header-line {
+      display: none; }
+    .header-content {
+      margin: 0;
+      flex-direction: column;
+      align-items: flex-start; }
+      .header-content__about {
+        margin: 0; }
+      .header-content__button {
+        display: none; }
+  .about {
+    padding: 0 10px;
+    height: 400px; }
+    .about__h1, .about__p1, .about__p2, .about__p3 {
+      text-align: center;
+      width: 300px; }
+    .about__p2 {
+      width: 250px; }
+    .about__p3 {
+      width: 200px; }
+  .skills {
+    padding: 0 10px; }
+    .skills__h1 {
+      margin-top: 50px; }
+    .skills__p {
+      margin-top: 20px; }
+    .skills-imgs {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column; }
+      .skills-imgs__img {
+        margin: 10px 0; }
+  .portfolio {
+    margin-top: 50px;
+    padding: 10px; }
+    .portfolio-block-link1 {
+      margin-top: 50px; }
+    .portfolio-block-link2 {
+      margin-top: 50px; }
+  .contacts {
+    padding: 10px 0; }
+    .contacts__img {
+      margin-top: 50px;
+      width: 50%; } }
