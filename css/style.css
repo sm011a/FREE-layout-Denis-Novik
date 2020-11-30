@@ -543,7 +543,7 @@ body {
   .contacts {
     padding: 50px 0; } }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .header {
     padding: 0 10px;
     height: 600px; }
