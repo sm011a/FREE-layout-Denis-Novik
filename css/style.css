@@ -364,7 +364,7 @@ body {
   .header-img {
     height: 387px;
     width: 100%;
-    background: url(/img/BSPP2266.png) no-repeat 50%; }
+    background: url(../img/BSPP2266.png) no-repeat 50%; }
 
 .about {
   background-color: #f6f6f6;
