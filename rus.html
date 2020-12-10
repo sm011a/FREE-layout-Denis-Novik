@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Денис Новик</title>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style rus.css">
 </head>
 
 <body>
     <div class="header">
         <nav class="header-nav">
-            <a class="header-nav__link-active" href="#">Главная</a>
-            <a class="header-nav__link" href="#">Обо мне</a>
-            <a class="header-nav__link" href="#">Скиллы</a>
-            <a class="header-nav__link" href="#">Портфолио</a>
-            <a class="header-nav__link" >Контакты</a>
+            <a class="header-nav__link-active" href="./rus.html">Главная</a>
+            <a class="header-nav__link" href="#about">Обо мне</a>
+            <a class="header-nav__link" href="#skills">Скиллы</a>
+            <a class="header-nav__link" href="#portfolio">Портфолио</a>
+            <a class="header-nav__link" href="#contacts">Контакты</a>
         </nav>
 
         <div class="header-line"></div>
@@ -26,14 +26,16 @@
 
             <div class="header-content__about">UX | UI дизайнер 24 года, Минск</div>
 
-            <a class="header-content__button" href="./index.html">RU <span>| ENG</span></a>
+            <a class="header-content__button" href="./index.html">RU <span class="header-content__button-span">|</span>
+                <span class="header-content__button-span1"> ENG</span></a>
+
         </div>
 
         <div class="header-img"></div>
     </div>
 
     <div class="about">
-        <h1 class="about__h1">Обо мне</h1>
+        <h1 id="about" class="about__h1">Обо мне</h1>
 
         <p class="about__p1">Привет, Я Денис – UX/UI дизайнер из Минска.
             Интересуюсь дизайном и всем, что с ним связано.</p>
@@ -46,7 +48,7 @@
     </div>
 
     <div class="skills">
-        <h1 class="skills__h1">Скиллы</h1>
+        <h1 id="skills" class="skills__h1">Скиллы</h1>
 
         <div class="skills__p">Я работаю в таких программах как.</div>
 
@@ -59,10 +61,10 @@
     </div>
 
     <div class="portfolio">
-        <h1 class="portfolio__h1">Портфолио</h1>
+        <h1 id="portfolio" class="portfolio__h1">Портфолио</h1>
 
         <div class="portfolio-block">
-            <a  class="portfolio-block-link">
+            <a class="portfolio-block-link">
                 <img class="portfolio-block-link__img" src="./img/Слой 8.png" alt="">
             </a>
 
@@ -73,7 +75,7 @@
             </a>
 
             <a class="portfolio-block__a" href="#">Reebok Store - Concept</a>
-       
+
             <a href="#" class="portfolio-block-link2">
                 <img class="portfolio-block-link2__img" src="./img/reebok_web-1.png" alt="">
             </a>
@@ -83,7 +85,7 @@
     </div>
 
     <div class="contacts">
-        <h1 class="contacts__h1">Контакты</h1>
+        <h1 id="contacts" class="contacts__h1">Контакты</h1>
 
         <p class="contacts__p">Хотите узнать больше или просто поболтать?
             Добро пожаловать!</p>
@@ -94,7 +96,7 @@
 
         <p class="contacts__end">
             Like me on<span class="contacts__end-span"> LinkedIn, Instagram, Behance, Dribble</span>
-           
+
         </p>
     </div>
 </body>
