@@ -12,11 +12,11 @@
 <body>
     <div class="header">
         <nav class="header-nav">
-            <a class="header-nav__link-active" href="#">Home</a>
-            <a class="header-nav__link" href="#">About me</a>
-            <a class="header-nav__link" href="#">Skills</a>
-            <a class="header-nav__link" href="#">Portfolio</a>
-            <a class="header-nav__link" >Contacts</a>
+            <a class="header-nav__link-active" href="./index.html">Home</a>
+            <a class="header-nav__link" href="#about">About me</a>
+            <a class="header-nav__link" href="#skills">Skills</a>
+            <a class="header-nav__link" href="#portfolio">Portfolio</a>
+            <a class="header-nav__link" href="#contacts">Contacts</a>
         </nav>
 
         <div class="header-line"></div>
@@ -26,14 +26,39 @@
 
             <div class="header-content__about">UX | UI designer 24 years old, Minsk</div>
 
-            <a class="header-content__button" href="./rus.html">RU <span>| ENG</span></a>
+            <a class="header-content__button" href="./rus.html">RU <span class="header-content__button-span">|</span>
+                <span class="header-content__button-span1"> ENG</span></a>
         </div>
+
+        <div class="header-burger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+            <script>
+                if(this === true){
+                    `
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="#">Главная</a></li>
+                        <li><a class="menu__item" href="#">Проекты</a></li>
+                        <li><a class="menu__item" href="#">Команда</a></li>
+                    </ul>
+                    `
+                }
+            </script>
+        </div>
+
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
 
         <div class="header-img"></div>
     </div>
 
     <div class="about">
-        <h1 class="about__h1">About me</h1>
+        <h1 id="about" class="about__h1">About me</h1>
 
         <p class="about__p1">Hi, I'm Denis – UX/UI designer from Minsk.
             I'm interested in design and everything connected with it.</p>
@@ -46,7 +71,7 @@
     </div>
 
     <div class="skills">
-        <h1 class="skills__h1">Skills</h1>
+        <h1 id="skills" class="skills__h1">Skills</h1>
 
         <div class="skills__p">I work in such programs as</div>
 
@@ -59,10 +84,10 @@
     </div>
 
     <div class="portfolio">
-        <h1 class="portfolio__h1">Portfolio</h1>
+        <h1 id="portfolio" class="portfolio__h1">Portfolio</h1>
 
         <div class="portfolio-block">
-            <a  class="portfolio-block-link">
+            <a class="portfolio-block-link">
                 <img class="portfolio-block-link__img" src="./img/Слой 8.png" alt="">
             </a>
 
@@ -73,7 +98,7 @@
             </a>
 
             <a class="portfolio-block__a" href="#">Reebok Store - Concept</a>
-       
+
             <a href="#" class="portfolio-block-link2">
                 <img class="portfolio-block-link2__img" src="./img/reebok_web-1.png" alt="">
             </a>
@@ -83,7 +108,7 @@
     </div>
 
     <div class="contacts">
-        <h1 class="contacts__h1">Contacts</h1>
+        <h1 id="contacts" class="contacts__h1">Contacts</h1>
 
         <p class="contacts__p">Want to know more or just chat?
             You are welcome!</p>
@@ -94,7 +119,7 @@
 
         <p class="contacts__end">
             Like me on<span class="contacts__end-span"> LinkedIn, Instagram, Behance, Dribble</span>
-           
+
         </p>
     </div>
 </body>
